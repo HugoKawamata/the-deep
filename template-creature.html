@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+
+    </head>
+    <body>
+        <div id="card">
+            <div id="title">
+                <div id="name">Deathroll, King of the Mangroves</div>
+            </div>
+            
+            <div id="visuals">
+                <div id="artbox" style="background-image: url(Images/Rootborn-Crocodile.jpg)"></div>
+                <div id="elements">
+                    <div class="element-container">
+                        <div class="element land">
+                        </div>
+                        <div class="element-text">Land</div>
+                    </div>
+                    <div class="element-container">
+                        <div class="element necrotic">
+                        </div>
+                        <div class="element-text long-text">Necrotic</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="typeline">Mad Mountains Creature - Rootborn Hunter</div>
+            
+            
+            <div id="textbox">
+                <div id="main-text">
+                    <p>Ambush <em>(Deathroll attacks first)</em></p>
+                    <p>At the end of each turn, if you control a seed token, heal 2HP.</p>
+                </div>
+                <div id="flavour-text">
+                    In the Kelhollow Woods, the trees have eyes... and teeth.
+                </div>
+            </div>
+            
+            <div id="stats">
+                <div class="statbox sanity">
+                    <div class="statbox-type">SAN</div>
+                    <div class="statbox-val san-val">10</div>
+                </div>
+                <div class="statbox might">
+                    <div class="statbox-type">MHT</div>
+                    <div class="statbox-val mht-val">7</div>
+                </div>
+                <div class="statbox int">
+                    <div class="statbox-type">INT</div>
+                    <div class="statbox-val int-val">3</div>
+                </div>
+                <div class="statbox dex">
+                    <div class="statbox-type">DEX</div>
+                    <div class="statbox-val dex-val">3</div>
+                </div>
+                <div class="statbox speed">
+                    <div class="statbox-type">SPD</div>
+                    <div class="statbox-val spd-val">7</div>
+                </div>
+                <div class="statbox hp">
+                    <div class="statbox-type">HP</div>
+                    <div class="statbox-val hp-val">50</div>
+                </div>
+            </div>
+        </div>
+        <div id="form">
+            <input id="faction-input" type="text"><span>Faction (MAD, LAK, KZJ, DRE, PAT, JIN)</span>
+            <br>
+            <input id="name-input" type="text"><span>Name</span>
+            <br>
+            <input id="artbox-input" type="text"><span>Art Url (Images/.)</span>
+            <br>
+            <input id="numelems" type="text"><span>Num Elements (Up to 3)</span>
+            <br>
+            <input id="elem0-input" type="text"><span>Element 0 (lowercase: land, necrotic, madness, deep, fire, wind)</span>
+            <br>
+            <input id="elem1-input" type="text"><span>Element 1</span>
+            <br>
+            <input id="elem2-input" type="text"><span>Element 2</span>
+            <br>
+            <input id="type-input" type="text"><span>Typeline</span>
+            <br>
+            <input id="main-text-input" type="text"><span>Textbox (use p tags for paragraphs, em for italics)</span>
+            <br>
+            <input id="flavour-input" type="text"><span>Flavour text</span>
+            <br>
+            <input id="san-input" type="text"><span>SAN</span>
+            <br>
+            <input id="mht-input" type="text"><span>MGT</span>
+            <br>
+            <input id="int-input" type="text"><span>INT</span>
+            <br>
+            <input id="dex-input" type="text"><span>DEX</span>
+            <br>
+            <input id="spd-input" type="text"><span>SPD</span>
+            <br>
+            <input id="hp-input" type="text"><span>HP</span>
+            <br>
+            <button id="renderButt">Render Card</button>
+            <button id="generateButt">Generate Image</button>
+        </div>
+    </body>
+</html>

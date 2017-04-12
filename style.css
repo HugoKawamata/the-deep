@@ -1,0 +1,255 @@
+body {
+    display: flex;
+}
+
+#form {
+    padding-top: 50px;
+    margin-left: 50px;
+}
+
+#card {
+    height: 532px;
+    width: 375px;
+    border-radius: 10px;
+    padding: 20px;
+    background-size: cover;
+    font-family: "Lora";
+}
+
+.prayer {
+    background-position: center;
+    background-image: url(Images/Attack-Phobia.jpg);
+}
+
+.mad-mountains {
+    background-image: url(Background/Border-MadMountains.jpg);
+}
+
+.kzjath {
+    background-position: center;
+    background-image: url(Background/Border-Kjzath.jpg);
+}
+
+.lakovi {
+    background-image: url(Background/Border-Lakovi.jpg);
+}
+
+.drevostoy {
+    background-image: url(Background/Border-Drevostoy.jpg);
+}
+
+.pathos {
+    background-image: url(Background/Border-Pathos.jpg);
+}
+
+.jindavah {
+    background-image: url(Background/Border-Jindavah.jpg);
+    background-position: center;
+}
+
+#title {
+    width: 373px;
+    height: 40px;
+    background-color: rgba(200,200,200,0.8);
+    border-radius: 4px;
+    line-height: 40px;
+    display: flex;
+    font-family: "Macondo";
+    border: 1px solid black;
+    border-bottom: 2px solid black;
+}
+
+#name {
+    font-size: 22px;
+    padding-left: 10px;
+}
+
+#nation {
+    width: 30px;
+    height: 30px;
+    background-image: url(Icons/madmountains.png);
+    background-size: cover;
+    margin: 5px;
+}
+
+#visuals {
+    margin-top: 5px;
+    height: 230px;
+    display: flex;
+}
+
+#artbox {
+    width: 85%;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: 2px solid black;
+    border-bottom: 3px solid black;
+   
+}
+
+#visuals .artbox-noelements {
+    width:100%;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 0;
+}
+
+#elements {
+    display: flex;
+    width: 15%;
+    flex-wrap: wrap;
+    background-color: rgba(200,200,200,0.8);
+    border-top-right-radius: 4px;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.element-container {
+    margin: auto;
+}
+
+.element {
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin: auto;
+}
+
+.land {
+    background-image: url(Icons/land1.png)
+}
+
+.necrotic {
+    background-image: url(Icons/necro.png)
+}
+
+.madness {
+    background-image: url(Icons/madness.png);
+}
+
+.deep {
+    background-image: url(Icons/deep.png);
+}
+
+.fire {
+    background-image: url(Icons/fire.png);
+}
+
+.wind {
+    background-image: url(Icons/wind.png);
+}
+
+.element-text {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+.long-text {
+    font-size: 13px;
+}
+
+
+#typeline {
+    background-color: cyan;
+    height: 30px;
+    font-family: "Lora";
+    line-height: 30px;
+    padding-left: 10px;
+    background-color: rgba(200,200,200,0.8);
+    border-bottom: 3px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-radius: 0px 0px 4px 4px;
+}
+
+#textbox {
+    margin-top: 5px;
+    height: 140px;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-family: "Lora";
+    background-color: rgba(200,200,200,0.8);
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 1px solid #333;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+#textbox-nostats {
+    margin-top: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-family: "Lora";
+    background-color: rgba(200,200,200,0.8);
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 3px solid black;
+    border-radius: 4px;
+    
+    display: flex;
+    flex-direction: column;
+    height: 190px;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+#main-text {
+    flex-grow: 1;
+}
+
+#counter-text {
+    flex-grow: 1;
+}
+
+#flavour-text {
+    align-self: flex-end;
+    font-style: italic;
+}
+
+#stats {
+    height: 50px;
+    background-color: violet;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 3px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: rgba(200,200,200,0.8);
+}
+
+.statbox {
+    text-align: center;
+}
+
+.statbox-type {
+    font-size: 14px;
+}
+
+.statbox-val {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#main-text-input {
+    height: 200px;
+    width: 300px;
+}
