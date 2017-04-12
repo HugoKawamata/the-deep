@@ -20,23 +20,8 @@ $(document).ready(function(){
             case "JIN":
                 $("#card").addClass("jindavah");
                 break;
-            case "FIR":
-                $("#card").addClass("fire");
-                break;
-            case "WIN":
-                $("#card").addClass("wind");
-                break;
-            case "LAN":
-                $("#card").addClass("land");
-                break;
-            case "NEC":
-                $("#card").addClass("necrotic");
-                break;
-            case "MNS":
-                $("#card").addClass("madness");
-                break;
-            case "DEE":
-                $("#card").addClass("deep");
+            case "SPE":
+                $("#card").addClass("spell");
                 break;
             case "PRA":
                 $("#card").addClass("prayer");

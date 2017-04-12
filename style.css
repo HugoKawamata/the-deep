@@ -21,6 +21,12 @@ body {
     background-image: url(Images/Attack-Phobia.jpg);
 }
 
+.spell {
+    background-image: url(Background/Border-Spell.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
 .mad-mountains {
     background-image: url(Background/Border-MadMountains.jpg);
 }
@@ -250,6 +256,4 @@ p {
 }
 
 #main-text-input {
-    height: 200px;
-    width: 300px;
 }
