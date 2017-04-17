@@ -1,0 +1,136 @@
+Attacks:
+    
+    ---Madness---
+
+    Inception
+    Type: Madness
+    Attack: If you lose a Sanity 3 clash, target opponent loses 2 Sanity.
+    Counter: Attacking opponent loses 1 Sanity.
+    
+    Cast Into Darkness
+    Type: Madness - Fear
+    Attack: If you win a Sanity 3 clash, target opponent loses 2 Sanity.
+    Counter: Target opponent gains disadvantage on their next roll. If that roll is a critical fail, that opponent loses 2 Sanity.
+    
+    Insecurity
+    Type: Madness
+    Attack: Target opponent's Sanity becomes equal to their highest other trait.
+    Counter: Attacking opponent's highest trait becomes equal to their sanity.
+    
+    Startle
+    Type: Madness - Fear
+    Attack: Target opponent loses 1 Sanity.
+    Counter: Attacking opponent loses 1 Sanity.
+    
+    Visions of the Deep Ones
+    Type: Legendary Madness - Forbidden
+    Attack: If target opponent's HP is base or higher, that player loses 4 Sanity.
+    Counter: Draw a card, then discard a card.
+    
+    Psychic Extraction
+    Type: Madness
+    Attack: Target opponent loses 1 Sanity and you gain 1 Sanity.
+    Counter: Attacking opponent reveals their hand and you gain 1 Sanity.
+    
+    Amnesia
+    Type: Madness
+    Attack: Name a card. That card cannot be cast this turn. If target opponent has a card with the same name in their hand, they discard it and draw a card.
+    Counter: Attacking opponent reveals their hand and loses 1 Sanity.
+    
+    Sow Doubt
+    Type: Madness
+    Attack: Target opponent loses 1 Sanity. The next card they play must be played at random.
+    Counter: You and target opponent gain disadvantage on your next roll.
+    
+    Second Thoughts
+    Type: Madness
+    Attack: Target opponent loses 1 Sanity for each card named Second Thoughts in your graveyard.
+    Counter: Negate target attack. Your opponent draws a card and casts another attack at random from their hand. (If they would not ordinarily be able to cast it, it is cast anyway.)
+    
+    About-Face
+    Type: Madness
+    Attack: Each player discards their hand and draws cards equal to the number of cards they discarded.
+    Counter: None.
+    
+    
+    ---Wind---
+    
+    Rain of Knives
+    Type: Wind
+    Attack: Target opponent takes 1d10 damage.
+    Counter: Attacking opponent takes 1d10 damage.
+    
+    Elder Wind
+    Type: Wind
+    Attack: Target opponent takes 1d20 damage.
+    Counter: None.
+    
+    Tailwind
+    Type: Wind
+    Attack: Target opponent takes 1d6 damage. You gain advantage on your next roll for an attack.
+    Counter: Draw a card and discard a card. You gain advantage on your next roll for an attack.
+    
+    Knife-Hand Strike
+    Type: Wind - Contact
+    Attack: Draw a card and discard a card.
+    Counter: Attacking opponent takes 4+1d8 damage.
+    
+    Clear Skies
+    Type: Wind
+    Attack: Draw up to 2 cards and discard that many cards.
+    Counter: Remove all advantage and disadvantage from each player. Draw a card and discard a card.
+    
+    Dust Storm
+    Type: Wind
+    Attack: Target opponent takes 1d4 damage and loses 2 Dexterity and 2 Speed.
+    Counter: If you win a Speed 3 clash, target attack deals no damage.
+    
+    Wind Charm
+    Type: Wind
+    Attack: Draw a card and discard a card. You gain advantage on your next roll for an attack.
+    Counter: Draw a card and discard a card. Create 2 charm tokens (When you roll a critical fail, sacrifice a charm token and roll that die again).
+    
+    Tornado
+    Type: Wind
+    Attack: If you don't have advantage, you take 1d6 damage. Target opponent takes 3d6 damage.
+    Counter: None.
+    
+    Pursuit
+    Type: Wind - Contact
+    Attack: If you win a Speed 1 clash, target opponent takes 1d10 damage and loses 1 Speed.
+    Counter: If you win a Speed 3 clash, target attack deals no damage.
+    
+    
+    ---Necrotic---
+    
+    Pestilence
+    Type: Necrotic
+    Attack: Target opponent creates 3 plague tokens. (At the beginning of a player's end step, that player sacrifices a plague token. Whenever a player sacrifices a plague token, they take damage equal to the number of plague tokens they control.)
+    Counter: Destroy target token.
+    
+    Decaying Touch
+    Type: Necrotic - Contact
+    Attack: Target opponent creates a plague token and takes 3+1d4 damage.
+    Counter: Attacking opponent sacrifices a plague token and gains disadvantage on their next roll.
+    
+    A Highly Curious Case
+    Type: Necrotic
+    Attack: Target opponent creates 3 plague tokens. Target opponent sacrifices a plague token.
+    Counter: Attacking opponent creates a plague token and sacrifices 3 plague tokens.
+    
+    
+    ---Fire---
+    
+    Inner Fire
+    Type: Fire
+    Attack: Target opponent takes damage equal to your Might.
+    Counter: Heal HP equal to your Might.
+    
+    Invoke the Dragon Spirit
+    Type: Fire
+    Attack: 
+    
+    Overheat
+    Type: Fire
+    Attack: Target opponent takes 4+2d6 damage and you take 2+1d6 damage.
+    Counter: You take 2+1d6 damage. 
