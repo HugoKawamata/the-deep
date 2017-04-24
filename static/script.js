@@ -82,6 +82,36 @@ $(document).ready(function(){
         $(".hp-val").html($("#hp-input").val());
     };
     
+    function saveCreature() {
+        var creatureToSave = {
+            "faction" : $("#faction-input").val().toUpperCase(),
+            "name" : $("#name-input").val(),
+            "art-url" : $("#artbox-input").val(),
+            "num-elements" : $("#numelems").val(),
+            "elem0" : $("#elem0-input").val(),
+            "elem1" : $("#elem1-input").val(),
+            "elem2" : $("#elem2-input").val(),
+            "type" : $("#type-input").val(),
+            "main-text" : $("#main-text-input").val(),
+            "flavour" : $("#flavour-input").val(),
+            "san" : $("#san-input").val(),
+            "mht" : $("#mht-input").val(),
+            "int" : $("#int-input").val(),
+            "dex" : $("#dex-input").val(),
+            "spd" : $("#spd-input").val(),
+            "hp" : $("#hp-input").val()
+        };
+        
+        return creatureToSave;
+    };
+    
     
     $("#renderButt").click(renderCard);
+    $("#saveButt").click(console.log("meme"));
+    console.log("start");
+    /*$("#saveCreatureButt").click(
+        $.post("/creature-save", 
+        {name: "big", other: "boppa"});
+    );*/
+    
 });
