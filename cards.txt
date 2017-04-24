@@ -133,4 +133,4 @@ Attacks:
     Overheat
     Type: Fire
     Attack: Target opponent takes 4+2d6 damage and you take 2+1d6 damage.
-    Counter: You take 2+1d6 damage. 
+    Counter: You take 2+1d6 damage. Negate target attack.
